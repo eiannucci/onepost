@@ -125,7 +125,7 @@ const Modal: React.FC<ModalProps> = ({
                             {body}
                         </div>
                         {/* footer */}
-                        <div className="flex flex-colgap-2 p-10">
+                        <div className="flex flex-col gap-2 p-10">
                             <Button
                                 disabled={disabled}
                                 label={actionLabel}
